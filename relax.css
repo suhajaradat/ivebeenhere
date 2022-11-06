@@ -1,0 +1,62 @@
+*{
+font-family:Dosis; 
+font-weight: bolder;
+}
+
+
+iFrame{
+border-radius: 30%;
+margin:3%
+width: 30%;}
+
+li{
+display: flex;  
+float: right;
+padding:14px 16px; 
+text-align:center; 
+font-weight:bolder;}
+
+nav{
+	clear: both;
+width: 100%;
+height: 20%;
+margin: 10px;}
+
+ a{
+color: #417154;
+text-decoration: none;
+}
+
+audio{
+width: 30%;
+height: 150px;
+margin: auto;
+padding: auto;
+}
+
+audio:hover{
+-webkit-transform: scale(1.08);
+  transform: scale(1.08);}
+
+span{
+
+padding: 10px;
+margin: 10px;}
+
+
+span:hover{
+border:1px solid linear-gradient(#417154,#C8B282);
+}
+
+li:hover{
+	-webkit-transform: scale(1.08);
+  transform: scale(1.08);}
+
+a:hover{
+text-decoration: none;
+color: #6D9775;
+}
+
+
+a:active{
+color: #D0C59A;}
