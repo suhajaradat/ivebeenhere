@@ -120,17 +120,110 @@ justify-self: center;}
 
 
 
+#hiddenbig{
+visibility: hidden;}
+.visible-xs{
+visibility: hidden;}
+
+@media (max-width: 480px) {
+
+.visible-xs{
+visibility: visible;}
+
+ body{
+
+        margin: 0;
+        padding-top: 0;
+        box-sizing: border-box;
+    }
 
 
+#container{
+display: grid;
+grid-template-columns: 90%; 
+column-gap: 10px;
+margin: 25px;
+}
 
-@media only screen and (min-width: 320px)and (max-width: 480px){
+header{
+    display: grid;
+grid-template-columns: 45% 45%;
+column-gap: 10px;
+margin: 5px;
+}
+
+   .icon{
+    margin: auto;
+width: 15vw;
+}
+
 img{ 
-    width: 10vw;
-    position: fixed;
-    top: 10px;
-    left: 20px;
-
+    width: 40vw;
+    margin: auto;
+}    
+p{
+width: 90vw;
+position: relative;
+}
+.nav-bar{
+visibility:hidden;
 }
 
 
+#hiddenbig{
+visibility: visible;}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
 }
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+  float: left;
+  color: #104730;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a.icon {
+  color: #6D9775;
+ border: 1px solid #A67B5C;
+ 
+}
+
+.topnav a:hover {
+  background-color: #D0C59A;
+  color: black;}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+br{
+visibility: hidden;}
+heigh
+#cool{
+display: grid;
+grid-template-columns: 100%;}
+
+#writing{
+height: 270vh;
+}
+
+main{
+width: 100%;}
+
+}
+
+h2{
+    display: block;
+align-content:center;
+align-items:center; }
