@@ -78,8 +78,8 @@ color: #D0C59A;}
 #footer{
 background-color:#D0C59A ;
 width: 100%;
-height: 40vh;
-margin: auto;}
+/*height: 40vh;
+*/margin: auto;}
 
 
 img{
@@ -108,7 +108,7 @@ main h2{
 }
 
 #writing{
-height: 25vh;
+
 }
 
 img{
@@ -120,8 +120,7 @@ justify-self: center;}
 
 
 
-#hiddenbig{
-visibility: hidden;}
+
 .visible-xs{
 visibility: hidden;}
 
@@ -165,58 +164,13 @@ p{
 width: 90vw;
 position: relative;
 }
-.nav-bar{
-visibility:hidden;
-}
-
-
-#hiddenbig{
-visibility: visible;}
-
-.topnav {
-  overflow: hidden;
-  position: relative;
-}
-
-.topnav #myLinks {
-    display: none;
-}
-
-.topnav a {
-  float: left;
-  color: #104730;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-
-.topnav a.icon {
-  color: #6D9775;
- border: 1px solid #A67B5C;
- 
-}
-
-.topnav a:hover {
-  background-color: #D0C59A;
-  color: black;}
-
-.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
 
 br{
 visibility: hidden;}
-heigh
+
 #cool{
 display: grid;
 grid-template-columns: 100%;}
-
-#writing{
-height: 270vh;
-}
 
 main{
 width: 100%;}
