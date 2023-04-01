@@ -71,6 +71,10 @@ font-size: 1.4em;}
     display: block;
     text-align: left;
   }
+  
+  img{
+    margin:15px;}
+  
 header{
    display: grid;
 grid-template-columns: 48% 50%;
