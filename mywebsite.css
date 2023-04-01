@@ -149,7 +149,8 @@ li:hover{
 
 @media (max-width: 480px) {
 
-
+img{
+  margin:25px;
 
 p{
 width: 90vw;
