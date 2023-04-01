@@ -1,93 +1,131 @@
 *{
 font-family:  Helvetica ;
-box-sizing:border-box;}
+box-sizing: border-box;
 
-#nav-bar li {
-display: flex;
-float: left;  
-padding:14px 16px; 
-text-align:center; 
-font-weight:bolder;}
-
-#container{
-display: grid;
-grid-template-columns: 50% 50%;
-column-gap: 10px;
-margin: 25px;
 }
+
 
 body{
- background-color:  #EFF0E4; 
+box-sizing: border-box;}
+
+footer{
+background-color:lightpink;
+color: navy;
+width: 100%;
+/*height: 40vh;
+*/margin: auto;}
+#mytitle{
+font-size: 1.4em;}
+
+.topnav {
+  background-color: navy;
+  overflow: hidden;
 }
-/*header{
-float: left;
-width: 50%;}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: lightpink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #royalblue;
+  color: lightpink;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  
+
+}
+@media screen and (max-width: 480px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+header{
+   display: grid;
+grid-template-columns: 48% 50%;
+column-gap: 2px;
+margin: 2px;
+margin-bottom: 0px;
 */
+}
+
+img{
+width:50vw;
+margin: auto;}
+}
+
+header{
+width: 100%;
+display: grid;}
+
+
 p{
     font-size: 1.06em;
-width: 95%;
+width: 99%;
 line-height: 1em;
-}
-/*main{
-float:left;
-width:50% ;}
-*/
-
-#nav-list{
-width: 100%;    
-align-content: center;
-align-items: center; 
-margin: 0px;
-}
-
-
-
-#nav-list li {
-display: flex;
-float: left;  
-padding:10px 15px; 
-text-align:center; 
-font-weight:bold;}
-
-
- a{
-color: #417154;}
-
-p{
 justify-content: stretch;
 text-align: justify;
 }
 
-header{
-width: 100%;}
 
+
+#mytitle{
+
+width: 50%;
+float: right;
+margin: auto;
+
+}
 #cool{
 width: 100%;
 padding: 10px;
-font-weight: bolder;
+/*font-weight: bolder;*/
 background-color:#C8B282;
 text-align: center;
 
 }
 
 
+
+
+/*
 a:hover{
 text-decoration: none;
 color: #D0C59A;}
+*/
+#
 
-#footer{
-background-color:#D0C59A ;
-width: 100%;
-/*height: 40vh;
-*/margin: auto;}
-
-
-img{
-    padding-top: 20vh;
-    padding-bottom: 20vh;
-    width: 25vw;
-display: block;
-margin: auto;}
 
 main{
     box-sizing:border-box;}
@@ -99,76 +137,23 @@ li:hover{
 
 }
 
-main h2{
 
-    text-align: center;
-    color: #417154;
-   font-family:"Impact";
-    font-size: 1rem;
-}
-
-#writing{
-
-}
-
-img{
-justify-self: center;}
-
-
-
-
-
-
-
-
-.visible-xs{
-visibility: hidden;}
 
 @media (max-width: 480px) {
 
-.visible-xs{
-visibility: visible;}
-
- body{
-
-        margin: 0;
-        padding-top: 0;
-        box-sizing: border-box;
-    }
 
 
-#container{
-display: grid;
-grid-template-columns: 90%; 
-column-gap: 10px;
-margin: 25px;
-}
-
-header{
-    display: grid;
-grid-template-columns: 45% 45%;
-column-gap: 10px;
-margin: 5px;
-}
-
-   .icon{
-    margin: auto;
-width: 15vw;
-}
-
-img{ 
-    width: 40vw;
-    margin: auto;
-}    
 p{
 width: 90vw;
 position: relative;
-}
+margin: auto}
 
 br{
 visibility: hidden;}
 
-#cool{
+#myfooter{
+    background-color: lightpink;
+    color: navy;
 display: grid;
 grid-template-columns: 100%;}
 
@@ -178,6 +163,11 @@ width: 100%;}
 }
 
 h2{
-    display: block;
-align-content:center;
-align-items:center; }
+    text-align: center;}
+
+    #writing{
+        width: 100%; 
+        text-align: center;
+        justify-content: stretch;
+text-align: justify;
+    }
