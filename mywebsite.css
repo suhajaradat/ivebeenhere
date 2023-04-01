@@ -76,7 +76,8 @@ text-align: center;
   }
   
   img{
-    margin:15px;}
+    margin:15px;
+  margin-left:25px;}
   
 header{
    display: grid;
@@ -159,8 +160,8 @@ br{
 visibility: hidden;}
 
 #myfooter{
-    background-color: lightpink;
-    color: navy;
+    background-color:navy;
+    color:lightpink;
 display: grid;
 grid-template-columns: 100%;}
 
