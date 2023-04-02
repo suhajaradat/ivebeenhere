@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="relax.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Try to Relax</title>
-	
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 <header>
-	<nav  id="header-nav" class="navbar ">
+	 <div class="topnav" id="myTopnav">
  
- <ul>
-<li class="relax"><a href="https://www.buymeacoffee.com/suhajaradat" target="_blank">Buy me a coffee</a></li>
-<li class="relax"><a href="indexmywebsite.html">Portfolio</a></li>
-<li class="relax"><a href="indexmywebsite.html">Home</a></li>
-</ul>
-</nav></header>
+<!-- <nav class="visible-xs" class="topnav">-->
+
+  		     <a href="indexmywebsite.html">I've Been Here Before</a>
+               <a href="indexmywebsite.html">Home</a>
+               <a href="#">Portfolio</a>
+               <a href="https://www.buymeacoffee.com/suhajaradat" target="_blank">Buy me a coffee</a>
+                 <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i>
+                 </a>
+</div>
+</header>
 
 <section>
 <span><audio controls
@@ -41,5 +48,23 @@ src="relaxing-music.mp3" type="audio/mpeg"></audio></span>
 
 
 </section>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>
