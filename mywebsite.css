@@ -12,8 +12,6 @@ text-align: center;
 
 }
 
-
-
 body{
 box-sizing: border-box;}
 section{
@@ -31,7 +29,6 @@ color: navy;}
 #mytitle{
 font-size: 1.4em;}
 
-
 button{
 display: block;
 margin: 10px;
@@ -44,8 +41,6 @@ border-image-slice: 1;
 margin-left: auto;
 margin-right: auto;
 }
-
-
 
 .topnav {
   background-color: navy;
@@ -101,6 +96,11 @@ margin-right: auto;
     display: block;
     text-align: left;
   }
+
+  h3{
+border: lightpink 2px solid;
+
+  }
 header{
    display: grid;
 grid-template-columns: 50% 50%;
@@ -108,6 +108,16 @@ column-gap: 2px;
 margin: 15px;
 margin-bottom: 0px;
 }
+#secondpic{
+   display: grid;
+grid-template-columns: 50% 50%;
+column-gap: 2px;
+margin: 15px;
+margin-bottom: 0px;
+}
+
+}
+
 
 img{
 width:50vw;
@@ -170,12 +180,6 @@ li:hover{
 
 @media (max-width: 480px) {
 
-li:hover{
--webkit-transform: scale(1.08);
-  transform: scale(1.12);
-
-
-}
 
 
 p{
@@ -189,8 +193,14 @@ visibility: hidden;}
 
 #myfooter{
 display: grid;
-grid-template-columns: 100%;}
+grid-template-columns: 100%;
+margin: 20px;}
 
+
+h5{
+margin: 20px;}
+.col-sm-4{
+margin: 10px;}
 main{
 width: 100%;}
 
