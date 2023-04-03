@@ -3,13 +3,10 @@ font-family:  Helvetica ;
 box-sizing: border-box;
 }
 img{
-
 width: 50vw;
 }
-
 #myfooter{
 text-align: center;
-
 }
 
 body{
@@ -97,10 +94,10 @@ margin-right: auto;
     text-align: left;
   }
 
-  h3{
+  <!-- h3{
 border: lightpink 2px solid;
 
-  }
+  } --> 
 header{
    display: grid;
 grid-template-columns: 50% 50%;
